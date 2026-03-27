@@ -15,7 +15,7 @@ This project demonstrates how real-world assets (RWA) like property can be digit
 * Stores ownership records securely on-chain
 * Ensures transparent and tamper-proof property data
 
-### Flow:
+### 🔄 Flow:
 
 1. Property owner initializes the property with total tokens
 2. Each token represents a fraction of the property
@@ -28,31 +28,68 @@ This project demonstrates how real-world assets (RWA) like property can be digit
 
 ### 🔹 Fractional Ownership
 
-* Users can invest in real estate with small amounts
-* Lowers entry barrier for property investment
+* Invest in real estate with small amounts
+* Lowers entry barrier for investors
 
 ### 🔹 On-chain Transparency
 
 * All ownership records stored on Stellar blockchain
-* No hidden or manipulated data
+* Fully verifiable and immutable
 
 ### 🔹 Secure Smart Contract Logic
 
-* Uses Soroban contracts for trustless execution
+* Built using Soroban smart contracts (Rust)
 * Owner authentication enforced
 
-### 🔹 Simple Ownership Tracking
+### 🔹 Ownership Tracking
 
 * Users can check how many tokens they own
-* Property details are publicly accessible
+* Public property details available anytime
 
-### 🔹 Scalable Model
+### 🔹 Scalable Architecture
 
 * Can be extended for:
 
   * Rental income distribution
-  * Secondary marketplace (buy/sell tokens)
-  * Multiple properties
+  * Token resale marketplace
+  * Multi-property support
+
+---
+
+## 🔗 Smart Contract Deployment
+
+The Real Estate Token smart contract is deployed on **Stellar Testnet**.
+
+* **Contract ID:**
+  `CDWZJRXVVFPREYTUNIRSHOUMFEBYVTNVNCD2ZCJUFVJ7AZX6D5DPMW2B`
+
+* **Explorer Link:**
+  https://stellar.expert/explorer/testnet/contract/CDWZJRXVVFPREYTUNIRSHOUMFEBYVTNVNCD2ZCJUFVJ7AZX6D5DPMW2B
+
+---
+
+## 📸 Contract Preview
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/89843a99-3c6b-42c6-b53e-6278791ce70a" />
+
+
+> ✅ Live on-chain contract — fully verifiable and transparent
+
+---
+
+## 🧪 Try It Yourself
+
+You can interact with the contract using:
+
+* Stellar Laboratory (Soroban)
+* Freighter Wallet
+
+### Available Functions:
+
+* `init_property` → Initialize property
+* `buy_tokens` → Purchase ownership tokens
+* `get_tokens` → Check user ownership
+* `get_property` → View property details
 
 ---
 
@@ -61,32 +98,35 @@ This project demonstrates how real-world assets (RWA) like property can be digit
 * **Blockchain:** Stellar
 * **Smart Contracts:** Soroban (Rust)
 * **Wallet:** Freighter
-* **Backend (optional):** Node.js / Express
 * **Frontend (optional):** React
+* **Backend (optional):** Node.js
 
 ---
 
 ## 🚀 Future Improvements
 
-* Add payment integration (XLM transfers)
-* NFT-based property identity
-* Marketplace for trading tokens
-* Rental yield distribution system
-* KYC verification layer
+* 💰 XLM payment integration
+* 🏢 NFT-based property identity
+* 🔁 Secondary marketplace for token trading
+* 📊 Rental income distribution system
+* 🔐 KYC / compliance layer
 
 ---
 
-## 💡 Use Case
+## 💡 Use Cases
 
 * Real estate crowdfunding
 * Tokenized property investment platforms
-* Decentralized asset ownership systems
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/308d4763-8699-40a9-a1d3-dfe52e2879d9" />
-link: https://stellar.expert/explorer/testnet/contract/CDWZJRXVVFPREYTUNIRSHOUMFEBYVTNVNCD2ZCJUFVJ7AZX6D5DPMW2B
-
+* Decentralized ownership systems
 
 ---
 
 ## 👨‍💻 Author
 
 Built for Stellar Build Bootcamp 🚀
+
+---
+
+## 🧠 Tagline
+
+> Turning illiquid real estate into liquid, tradable digital assets on Stellar.
