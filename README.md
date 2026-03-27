@@ -81,6 +81,9 @@ This project demonstrates how real-world assets (RWA) like property can be digit
 * Real estate crowdfunding
 * Tokenized property investment platforms
 * Decentralized asset ownership systems
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/308d4763-8699-40a9-a1d3-dfe52e2879d9" />
+link: https://stellar.expert/explorer/testnet/contract/CDWZJRXVVFPREYTUNIRSHOUMFEBYVTNVNCD2ZCJUFVJ7AZX6D5DPMW2B
+
 
 ---
 
